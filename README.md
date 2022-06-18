@@ -11,7 +11,7 @@
 
 ## cách chạy hoàn chỉnh
 
-tải xuống hoặc git clone https://github.com/tranvannghia021/FireGroup.git
+tải xuống hoặc git clone https://github.com/tranvannghia021/FireGroup-form.git
 sau khi chạy xong
 -cài composer
 kiểm tra composer: composer -v
@@ -24,12 +24,10 @@ trong project cd tới thư mục chứa file docker-compose.yml
 chạy các lệnh sau:
 docker build ./docker
 docker-compose up -d
-docker exec -it laravel-app bash (laravel-app ở đây là do hình cấu hình trong file docker-composer.yml)
-php artisan migrate (để tạo bảng trong db)
 
 chạy http://localhost:8000/ (ports cấu hình trong file docker-compose)
 như vậy là đã chạy được rồi
 
 ======
-hiện tại trong bảng csdl chưa có data nào thì bạn có thể tự thêm vào hoặc chạy câu lệnh "php artisan db:seed" đứng trong máy ảo"root@d06b2d6195b3:/var/www/html#"
+
 .
