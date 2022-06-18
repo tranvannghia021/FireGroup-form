@@ -9,3 +9,9 @@
 2022/06/18 05:26:07 [notice] 18#18: start worker process 20
 2022/06/18 05:26:07 [notice] 18#18: start worker process 21
 2022/06/18 05:26:07 [notice] 18#18: start worker process 22
+2022/06/18 05:54:33 [warn] 19#19: conflicting server name "_" on 0.0.0.0:80, ignored
+2022/06/18 05:54:33 [notice] 19#19: using the "epoll" event method
+2022/06/18 05:54:33 [notice] 19#19: nginx/1.21.6
+2022/06/18 05:54:33 [notice] 19#19: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2022/06/18 05:54:33 [notice] 19#19: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/18 05:54:33 [notice] 19#19: getrlimit(RLIMIT_NOFILE): 1048576:1048576
