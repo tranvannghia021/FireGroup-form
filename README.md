@@ -22,8 +22,10 @@ cách cài :https://docs.docker.com/compose/install/uninstall/
 sau khi cài xong tất cả chạy docker desktop lên
 trong project cd tới thư mục chứa file docker-compose.yml
 chạy các lệnh sau:
-docker build ./docker
-docker-compose up -d
+
+# "docker build ./docker"
+
+# "docker-compose up -d"
 
 chạy http://localhost:8000/ (ports cấu hình trong file docker-compose)
 như vậy là đã chạy được rồi
